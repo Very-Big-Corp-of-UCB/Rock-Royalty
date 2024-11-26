@@ -53,58 +53,58 @@ body {
 }
 
 .popular-posts-post1 {
-  background-color: #a69677;
+  background-color: #b3a188;
   width: 500px;
   height: 600px;
   margin: 20px;
 }
 
 .popular-posts-post2 {
-  background-color: #a69677;
+  background-color: #b3a188;
   width: 500px;
   height: 600px;
   margin: 20px;
 }
 
 .popular-posts-post3 {
-  background-color: #a69677;
+  background-color: #b3a188;
   width: 500px;
   height: 600px;
   margin: 20px;
 }
 
 .blog-posts-post1 {
-  background-color: #a69677;
+  background-color: #b3a188;
   width: 300px;
   height: 400px;
 }
 
 .blog-posts-post2 {
-  background-color: #a69677;
+  background-color: #b3a188;
   width: 300px;
   height: 400px;
 }
 
 .blog-posts-post3 {
-  background-color: #a69677;
+  background-color: #b3a188;
   width: 300px;
   height: 400px;
 }
 
 .blog-posts-post4 {
-  background-color: #a69677;
+  background-color: #b3a188;
   width: 300px;
   height: 400px;
 }
 
 .blog-posts-post5 {
-  background-color: #a69677;
+  background-color: #b3a188;
   width: 300px;
   height: 400px;
 }
 
 .blog-posts-post6 {
-  background-color: #a69677;
+  background-color: #b3a188;
   width: 300px;
   height: 400px;
 }
@@ -124,14 +124,14 @@ body {
   flex: 1 1 calc((100% - 80px) / 3);
   max-width: calc((100% - 80px) / 3);
   box-sizing: border-box;
-  background-color: #a69677;
+  background-color: #b3a188;
   height: 400px;
 }
 
 .img-decoration {
   width: 100%;
   height: 500px;
-  background-color: #a69677;
+  background-color: #b3a188;
   margin: 0;
   padding: 0;
 }
@@ -218,7 +218,7 @@ body {
 
 .rights-footer {
   background-color: #0d0d0d;
-  color: #a69677;
+  color: #d2c5ad;
   text-align: center;
   padding: 20px;
   font-size: 15px;
