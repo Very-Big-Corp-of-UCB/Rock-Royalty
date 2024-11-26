@@ -1,0 +1,197 @@
+body {
+  background-color: #d2c5ad;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 535;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #d2c5ad;
+  margin: 10px;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+  background-color: #0d0d0d;
+}
+
+.headline h1 {
+  height: 100px;
+  text-align: center;
+  margin: 40px;
+  margin-top: 90px;
+  margin-bottom: 10px;
+  font-size: 90px;
+  padding: 30px;
+}
+
+.subtitle {
+  font-size: 30px;
+  text-align: center;
+  max-width: 800px;
+  line-height: 1.5;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.message-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  margin: 40px;
+}
+
+.user-name {
+  margin: 30px;
+  padding: 6px 16px;
+  width: 885px;
+  height: 47px;
+  border-width: 0px 0px 1px;
+}
+
+.user-email {
+  margin: 30px;
+  padding: 6px 16px;
+  width: 885px;
+  height: 47px;
+}
+
+.user-message {
+  margin: 30px;
+  padding: 6px 16px;
+  width: 885px;
+  height: 119px;
+}
+
+.message-form input,
+.message-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid #403b33;
+  outline: none;
+  background-color: transparent;
+  color: #0d0d0d;
+  font-family: "Playfair Display", serif;
+}
+
+.message-form input::placeholder,
+.message-form textarea::placeholder {
+  color: #0d0d0d;
+}
+
+.message-form input:focus,
+.message-form textarea:focus {
+  border-bottom: 2px solid #000;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.send-button-button {
+  font-family: "Playfair Display", serif;
+  border: none;
+  border-radius: 50px;
+  padding: 25px;
+  width: 125px;
+  background-color: #0d0d0d;
+  color: #d2c5ad;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.send-button-button:hover {
+  background-color: transparent;
+  border-color: #0d0d0d;
+  color: #0d0d0d;
+  border: 1px solid #0d0d0d;
+}
+
+.newsletter {
+  width: auto;
+  height: 400px;
+  margin: 50px;
+}
+
+.newsletter-headline h1 {
+  font-size: 65px;
+  text-align: center;
+}
+
+.newsletter input {
+  background-color: transparent;
+  width: 150px;
+  height: 37px;
+  padding: 6px 16px;
+  display: flex;
+  border: 1px solid #403b33;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.newsletter input::placeholder {
+  color: #0d0d0d;
+  font-family: "Playfair Display", serif;
+}
+
+.newsletter input:focus {
+  border-bottom: 2px solid #000;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.newsletter button {
+  font-family: "Playfair Display", serif;
+  border: none;
+  border-radius: 50px;
+  width: 130px;
+  padding: 15px;
+  background-color: #0d0d0d;
+  color: #d2c5ad;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.newsletter button:focus {
+  border-bottom: 2px solid #0d0d0d;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.newsletter button:hover {
+  background-color: transparent;
+  border-color: #0d0d0d;
+  color: #0d0d0d;
+  border: 1px solid #0d0d0d;
+}
+
+.inputs {
+  display: flex; /* Usando flexbox */
+  justify-content: center; /* Centralizando os inputs */
+  align-items: center;
+  gap: 70px;
+}
+
+.rights-footer {
+  background-color: #0d0d0d;
+  color: #a69677;
+  text-align: center;
+  padding: 20px;
+  font-size: 15px;
+  width: 100%;
+  bottom: 0;
+  z-index: 1000;
+}
