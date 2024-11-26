@@ -7,22 +7,38 @@
     <title>Início</title>
   </head>
   <body>
-    <!-- Navbar -->
+
+    <!-- NAVBAR -->
     <div class="navbar">
-       <!--FAZER CADASTRO -->
       <a href="../pages/index.html">Início</a>
       <a href="../pages/blog.html">Blog</a>
-      <a href="../pages/about.html">About</a>
-      <a href="../pages/contact.html">Contact</a>
+      <a href="../pages/about.html">Sobre</a>
+      <a href="../pages/contact.html">Contato</a>
+      <button class="sign-up-button" id="SignUpButton">Cadastro</button>
     </div>
 
-    <!-- Headline Section -->
+    <!--MODAL DE CADASTRO-->
+    <div class="modal" id="SignUpModal">
+      <div class="modal-content">
+          <span class="close" id="closeModal">&times;</span>
+          <div class="btn-sign-up">
+            <h2>Cadastro</h2>
+          </div>
+          <form>
+              <input type="text" id="#" placeholder="Nome">
+              <input type="email" id="#" placeholder="email">
+              <button type="submit">Cadastrar</button>
+          </form>
+      </div>
+  </div>
+
+    <!-- SEÇÃO DO TÍTULO -->
         <div class="headline">
         <h1>Rock Royalty</h1>
       <p class="subtitle">Um tributo ao som atemporal</p>
     </div>
 
-    <!-- Popular Posts Section -->
+    <!-- SEÇÃO DE POSTS POPULARES -->
     <div class="popular-posts-headline">
       <h2>Postagens Populares</h2>
     </div>
@@ -33,11 +49,10 @@
       <div class="popular-posts-post2"></div>
     </div>
 
-    <!-- Decorative Image 
-    COLOCAR SLIDES COM IMAGENS AQUI-->
+    <!--COLOCAR SLIDES COM IMAGENS AQUI-->
     <div class="img-decoration"></div>
 
-    <!-- Recent Posts Section -->
+    <!-- SEÇÃO DE POSTS RECENTES -->
     <div class="recent-posts-headline">
       <h2>Postagens Recentes</h2>
     </div>
@@ -52,9 +67,7 @@
       <div class="recent-posts-post6"></div>
     </div>
 
-      <!-- Newsletter Section
-    FAZER UM MODAL DE CONFIRMACAO DE ENVIO -->
-
+      <!-- SEÇÃO DA NEWSLETTER-->
   <div class="newsletter">
     <div class="newsletter-headline">
       <h1>Inscreva-se para a Newsletter</h1>
@@ -66,9 +79,10 @@
     </div>
   </div>
 
-    <!-- Footer -->
+    <!-- RODAPÉ -->
     <div class="rights-footer">
       <p>&copy; 2024 Rock Royalty. Todos os direitos reservados.</p>
     </div>
   </body>
+  <script src="../script/script.js"></script>
 </html>
