@@ -28,8 +28,8 @@ body {
   background-color: #0d0d0d;
 }
 
-.conteiner { 
-  display: flex; 
+.conteiner {
+  display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
@@ -38,7 +38,7 @@ body {
 
 .headline {
   font-size: 30px;
-  width: 50%; 
+  width: 50%;
   margin-right: 40px;
   padding: 20px;
 }
@@ -54,7 +54,7 @@ body {
 .about-image {
   width: 70%;
   margin: 20px;
-  padding: 60px; 
+  padding: 60px;
 }
 
 .about-image img {
@@ -81,7 +81,7 @@ body {
 
 .zoom-image:hover {
   transform: scale(1.2);
-  z-index: 10; /* Faz a imagem ficar acima das outras durante o zoom */
+  z-index: 10;
 }
 
 .img-decoration {
@@ -150,8 +150,8 @@ body {
 }
 
 .inputs {
-  display: flex; 
-  justify-content: center; 
+  display: flex;
+  justify-content: center;
   align-items: center;
   gap: 70px;
 }

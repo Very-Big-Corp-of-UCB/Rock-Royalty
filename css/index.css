@@ -38,7 +38,7 @@ body {
   color: #0d0d0d;
   font-size: 20px;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;   
+  transition: all 0.2s ease-in-out;
   padding: 0.5rem 1rem;
 }
 
@@ -78,7 +78,6 @@ body {
   background-color: #d2c5ad;
   padding: 2rem;
   border-radius: 5px;
-
 }
 
 .modal-content input::placeholder {
@@ -86,7 +85,8 @@ body {
   font-size: 17px;
 }
 
-.modal-content button, span {
+.modal-content button,
+span {
   font-family: "Playfair Display", serif;
   border: none;
   border-radius: 50px;
@@ -141,7 +141,14 @@ body {
   margin-left: 200px;
 }
 
-.popular-posts-post1, .popular-posts-post2, .recent-posts-post1, .recent-posts-post2, .recent-posts-post3, .recent-posts-post4, .recent-posts-post5, .recent-posts-post6 {
+.popular-posts-post1,
+.popular-posts-post2,
+.recent-posts-post1,
+.recent-posts-post2,
+.recent-posts-post3,
+.recent-posts-post4,
+.recent-posts-post5,
+.recent-posts-post6 {
   padding: 0;
   display: flex;
   justify-content: center;
@@ -222,8 +229,8 @@ body {
 }
 
 .recent-posts > div {
-  flex: 1 1 calc((100% - 80px) / 3); /* Para garantir que as divs fiquem lado a lado */
-  max-width: calc((100% - 80px) / 3); /* Certifica-se de que as divs terão o mesmo tamanho */
+  flex: 1 1 calc((100% - 80px) / 3);
+  max-width: calc((100% - 80px) / 3);
   box-sizing: border-box;
   background-color: #b3a188;
   height: 600px;

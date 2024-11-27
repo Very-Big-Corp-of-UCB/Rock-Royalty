@@ -52,7 +52,8 @@ body {
   align-items: center;
 }
 
-.popular-posts-post1, .popular-posts-post2,
+.popular-posts-post1,
+.popular-posts-post2,
 .popular-posts-post3 {
   background-color: #b3a188;
   width: 500px;
@@ -110,18 +111,18 @@ body {
 
 .blog-posts img,
 .popular-posts img {
-  width: 100%; /* Faz a largura ocupar todo o espaço da div */
-  height: 100%; /* Faz a altura ocupar todo o espaço da div */
-  object-fit: cover; /* Garante que a imagem se encaixe sem deformar */
-  border-radius: 5px; /* Opcional, adiciona bordas arredondadas */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
 }
 
 .blog-posts > div {
   flex: 1 1 calc((100% - 80px) / 3);
   max-width: calc((100% - 80px) / 3);
-  height: 400px; /* Altura fixa para as imagens */
-  position: relative; /* Garante que o conteúdo dentro fique contido */
-  overflow: hidden; /* Evita que imagens maiores escapem */
+  height: 400px;
+  position: relative;
+  overflow: hidden;
   box-sizing: border-box;
   background-color: #b3a188;
 }
@@ -131,11 +132,10 @@ body {
   overflow: hidden;
 }
 
-
 .blog-posts > div {
   flex: 1 1 calc((100% - 80px) / 3);
   max-width: calc((100% - 80px) / 3);
-  height: auto; /* Altura dinâmica */
+  height: auto;
   position: relative;
   overflow: hidden;
   background-color: #b3a188;
@@ -155,7 +155,7 @@ body {
   margin: 50px;
 }
 
-.newsletter-headline h1{
+.newsletter-headline h1 {
   font-size: 65px;
 }
 
@@ -223,8 +223,8 @@ body {
 }
 
 .inputs {
-  display: flex; /* Usando flexbox */
-  justify-content: center; /* Centralizando os inputs */
+  display: flex;
+  justify-content: center;
   align-items: center;
   gap: 70px;
 }

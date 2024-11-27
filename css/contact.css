@@ -129,7 +129,6 @@ body {
   background-color: #0d0d0d;
 }
 
-
 .newsletter {
   width: auto;
   height: 400px;
@@ -188,8 +187,8 @@ body {
 }
 
 .inputs {
-  display: flex; /* Usando flexbox */
-  justify-content: center; /* Centralizando os inputs */
+  display: flex;
+  justify-content: center;
   align-items: center;
   gap: 70px;
 }
