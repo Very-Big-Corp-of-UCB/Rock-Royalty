@@ -177,7 +177,7 @@ body {
 }
 
 .card-content {
-  padding: 6px;
+  padding: 2px;
   max-height: calc(100% - 150px);
   overflow-y: auto;
 }

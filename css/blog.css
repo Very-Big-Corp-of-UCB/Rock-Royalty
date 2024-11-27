@@ -52,20 +52,7 @@ body {
   align-items: center;
 }
 
-.popular-posts-post1 {
-  background-color: #b3a188;
-  width: 500px;
-  height: 600px;
-  margin: 20px;
-}
-
-.popular-posts-post2 {
-  background-color: #b3a188;
-  width: 500px;
-  height: 600px;
-  margin: 20px;
-}
-
+.popular-posts-post1, .popular-posts-post2,
 .popular-posts-post3 {
   background-color: #b3a188;
   width: 500px;

@@ -29,17 +29,17 @@ body {
 }
 
 .conteiner { 
-  display: flex; /* Flexbox para alinhar os itens lado a lado */
+  display: flex; 
   justify-content: center;
   align-items: center;
-  padding: 20px; /* Espaçamento adicional ao redor do conteúdo */
+  padding: 20px;
   margin: 50px;
 }
 
 .headline {
   font-size: 30px;
-  width: 50%; /* Definindo a largura da caixa de texto */
-  margin-right: 40px; /* Espaço entre o texto e a imagem */
+  width: 50%; 
+  margin-right: 40px;
   padding: 20px;
 }
 
@@ -54,7 +54,7 @@ body {
 .about-image {
   width: 70%;
   margin: 20px;
-  padding: 60px; /* Ajuste de largura para a imagem */
+  padding: 60px; 
 }
 
 .about-image img {
@@ -71,34 +71,17 @@ body {
   margin-left: 200px;
 }
 
-.popular-posts-post1 {
-  background-color: #b3a188;
-  width: 500px;
-  height: 600px;
-  margin: 20px;
+.zoom-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.2s ease;
 }
 
-.popular-posts-post2 {
-  background-color: #b3a188;
-  width: 500px;
-  height: 600px;
-  margin: 20px;
-}
-
-.popular-posts-post3 {
-  background-color: #b3a188;
-  width: 500px;
-  height: 600px;
-  margin: 20px;
-}
-
-.popular-posts {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin: 0 auto;
-  padding: 20px;
-  max-width: 100%;
+.zoom-image:hover {
+  transform: scale(1.2);
+  z-index: 10; /* Faz a imagem ficar acima das outras durante o zoom */
 }
 
 .img-decoration {
@@ -167,8 +150,8 @@ body {
 }
 
 .inputs {
-  display: flex; /* Usando flexbox */
-  justify-content: center; /* Centralizando os inputs */
+  display: flex; 
+  justify-content: center; 
   align-items: center;
   gap: 70px;
 }
